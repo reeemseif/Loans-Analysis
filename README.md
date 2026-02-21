@@ -30,24 +30,20 @@ This repository contains a comprehensive **exploratory data analysis (EDA)** and
 
 ---
 
-## 📁 Project Structure
-loan-lending-analysis/
-│
-├── 📄 README.md # Project documentation
-├── 📄 requirements.txt # Dependencies
-├── 📄 Home.py # Streamlit main entry point
-├── 📄 cleaned_df.csv # Cleaned dataset (analysis-ready)
-│
-├── 📁 pages/ # Streamlit multi-page directory
-│ ├── 📄 Univariate Analysis.py # Distributions and summaries
-│ ├── 📄 Multivariate Analysis.py # Relationships and correlations
-│ ├── 📄 Borrower Profile.py # Borrower characteristics
-│ ├── 📄 Risk Analysis.py # Default patterns & risk factors
-│ └── 📄 Loan Performance.py # Loan-level KPIs
-│
-├── 📁 notebooks/ # Jupyter notebooks
-│ ├── 📓 loan-lending.ipynb # Main EDA workflow
-
+### 📁 Project Structure
+- loan-lending-analysis/
+  - README.md                    # Project documentation
+  - requirements.txt              # Dependencies
+  - Home.py                       # Streamlit main entry point
+  - cleaned_df.csv                # Cleaned dataset (analysis-ready)
+  - pages/                        # Streamlit multi-page directory
+    - Univariate Analysis.py      # Distributions and summaries
+    - Multivariate Analysis.py    # Relationships and correlations
+    - Borrower Profile.py         # Borrower characteristics
+    - Risk Analysis.py            # Default patterns & risk factors
+    - Loan Performance.py         # Loan-level KPIs
+  - notebooks/                    # Jupyter notebooks
+    - loan-lending.ipynb          # Main EDA workflow
 
 ---
 
@@ -199,7 +195,7 @@ Grouped thousands of unique job titles into meaningful categories:
 - Sample fraction: 5% to 100% for heavy plots
 
 
-## 📊 Summary of Key Insights
+### 📊 Summary of Key Insights
 
 | Finding | Insight |
 |---------|---------|
